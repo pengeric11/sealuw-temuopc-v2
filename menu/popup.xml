@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/email_save"
+        android:title="Compose Email"/>
+
+    <item
+        android:id="@+id/dropbox_save"
+        android:title="Dropbox"/>
+
+    <item
+        android:id="@+id/delete_data"
+        android:title="Delete Data" >
+        <menu>
+
+        <item
+            android:id="@+id/yes_delete"
+            android:title="Yes"/>
+
+        <item android:title="No"
+            android:id="@+id/no_delete"/>
+        </menu>
+    </item>
+
+</menu>

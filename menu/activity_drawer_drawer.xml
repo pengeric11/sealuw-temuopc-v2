@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_bluetooth"
+            android:icon="@drawable/bt"
+            android:title="Bluetooth" />
+        <item
+            android:id="@+id/nav_dropbox"
+            android:icon="@drawable/dropbox"
+            android:title="Dropbox" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/history"
+            android:title="History" />
+    </group>
+</menu>
